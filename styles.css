@@ -7,7 +7,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto Slab', serif;
 }
 
-.navigation-wrapper {
+.header-wrapper {
     height: 190px;
     background-color: #3b5633;
     color: #ffffff;
@@ -55,14 +55,14 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
 
-.nav-link a {
+.link-wrapper a {
     font-family: 'Ubuntu Condensed', sans-serif;
     color: #ffffff;
     text-decoration: none;
     transition: 0.5s;
 }
 
-.nav-link a:hover {
+.link-wrapper a:hover {
     color: #bcca99;
     letter-spacing: 2px;
 }
