@@ -8,13 +8,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header-wrapper {
-    height: 190px;
+    height: 140px;
     background-color: #3b5633;
     color: #ffffff;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 60px 100px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
 }
 
 .left-column {
@@ -28,15 +31,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .center-column {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 42px;
     width: 500px;
 }
 
-.center-column .logo {
+.logo {
     display: flex;
     justify-content: center;
+    margin-bottom: 42px;
 }
 
 .logo img {
@@ -53,16 +54,13 @@ h1, h2, h3, h4, h5, h6 {
 .nav-link {
     width: 70px;
     text-align: center;
-}
-
-.link-wrapper a {
     font-family: 'Ubuntu Condensed', sans-serif;
     color: #ffffff;
     text-decoration: none;
     transition: 0.5s;
 }
 
-.link-wrapper a:hover {
+.nav-link:hover {
     color: #bcca99;
     letter-spacing: 2px;
 }
@@ -84,7 +82,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-left: 15px;
 }
 
-.homepage {
+.main-section {
     background-image: url(assets/kayak_adventures.jpg);
     padding: 100px;
     height: 300px;
@@ -143,21 +141,21 @@ h1, h2, h3, h4, h5, h6 {
     border-bottom: 5px solid #ffffff;
 }
 
-.column :nth-child(1) {
+.column-icon {
     font-size: 3em;
 }
 
-.column :nth-child(2) {
+.column-title {
     font-size: 1.5em;
     font-weight: 900;
     height: 50px;
     transition: 1s;
 }
 
-.column :nth-child(2):hover {
+.column-title:hover {
     letter-spacing: 1px;
 }
 
-.column :nth-child(3) {
+.column-content {
     letter-spacing: 2px;
 }
