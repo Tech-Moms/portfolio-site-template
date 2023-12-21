@@ -1,5 +1,10 @@
 body {
   margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Rufina', serif;
 }
 
 h1 {
@@ -24,12 +29,33 @@ header {
   color: white;
 }
 
+nav {
+  font-size: 32px;
+}
+
+nav a {
+  /* No top and bottom margin, only left and right */
+  margin: 0 16px;
+}
+
+
 main {
   max-width: 70%;
+  margin: auto;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+main section {
+  margin-bottom: 48px;
 }
 
 footer {
   background-color: #CBF6E9;
+  font-size: 24px;
+  font-weight: bold;
+  /* No left and right padding, only top and bottom */
+  padding: 48px 0;
 }
 
 .intro {
