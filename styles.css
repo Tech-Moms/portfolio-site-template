@@ -30,35 +30,37 @@ img {
   border-radius: 5%;
 }
 
+.centered {
+  text-align: center;
+}
+
+
 header {
   background-color: #1B998B;
   color: white;
-  padding: 48px 0;
+  padding-top: 48px;
+  padding-bottom: 16px;
 }
 
-.marquee {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
+.intro {
+  display: inline-block;
+  text-align: left;
+  max-width: 360px;
+  margin-left: 48px;
 }
 
 nav {
-  font-size: 32px;
-  margin-top: 32px;
+  margin-top: 72px;
+  font-size: 28px;
 }
 
 nav a {
-  /* No top and bottom margin, only left and right */
   margin: 0 16px;
 }
-
 
 main {
   max-width: 70%;
   margin: auto;
-  padding-top: 16px;
-  padding-bottom: 16px;
 }
 
 main section {
@@ -71,13 +73,4 @@ footer {
   font-weight: bold;
   /* No left and right padding, only top and bottom */
   padding: 48px 0;
-}
-
-.intro {
-  max-width: 360px;
-  margin-left: 48px;
-}
-
-.centered {
-  text-align: center;
 }
