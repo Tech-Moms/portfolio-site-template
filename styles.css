@@ -1,43 +1,8 @@
-body {
-  margin: 0;
-}
-
-h1 {
-  font-size: 72px;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-img {
-  border-radius: 5%;
-}
-
 header {
   background-color: #1B998B;
   color: white;
 }
 
-main {
-  max-width: 70%;
-}
-
 footer {
   background-color: #CBF6E9;
-  font-size: 24px;
-  font-weight: bold;
-}
-
-.intro {
-  max-width: 360px;
-}
-
-.centered {
-  text-align: center;
 }
