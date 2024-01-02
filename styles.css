@@ -6,3 +6,7 @@ header {
 footer {
   background-color: #CBF6E9;
 }
+
+.centered {
+  text-align: center;
+}
