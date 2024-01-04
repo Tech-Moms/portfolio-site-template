@@ -1,6 +1,9 @@
 header {
   background-color: #1B998B;
   color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 footer {
@@ -9,4 +12,9 @@ footer {
 
 .centered {
   text-align: center;
+}
+
+.intro {
+  max-width: 500px;
+  text-align: left;
 }
