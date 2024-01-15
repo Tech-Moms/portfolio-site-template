@@ -1,3 +1,21 @@
+body {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+  color: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 header {
   background-color: #1B998B;
   color: white;
@@ -8,13 +26,40 @@ header {
 
 footer {
   background-color: #CBF6E9;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.pad-md {
+  padding: 28px 0;
+}
+
+.margin-lg {
+  margin: 64px 0;
+}
+
+.margin-sm {
+  margin: 32px 0;
 }
 
 .centered {
   text-align: center;
 }
 
+.partial-width {
+  max-width: 66%;
+  margin: auto;
+}
+
+.rounded {
+  border-radius: 5%;
+}
+
 .intro {
   max-width: 500px;
   text-align: left;
+}
+
+.mid-align {
+  vertical-align: middle;
 }
