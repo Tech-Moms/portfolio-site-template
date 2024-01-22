@@ -1,17 +1,18 @@
-/* Based on this StackOverflow answer: https://stackoverflow.com/questions/52637835/dynamically-change-background-color-on-scroll */
 const red = 27;
 const green = 153;
 const blue = 139;
 
-const section1 = document.getElementById("header")
+function changeColor() {
+    const header = document.getElementById("header");
+    const scrollFactor = 1 + window.scrollY / 400;
 
-/* To make the background fade FASTER, make the dimming constant SMALLER */
-const dimmingConstant = 500
+    const r = red / scrollFactor;
+    const g = green / scrollFactor;
+    const b = blue / scrollFactor;
 
-window.addEventListener('scroll', () => {
-    let y = 1 + window.scrollY / dimmingConstant;
-    const r = red / y;
-    const g = green / y;
-    const b = blue / y;
-    section1.style.backgroundColor = `rgb(${r}, ${g}, ${b})`
-})
+    updatedColor = `rgb(${r}, ${g}, ${b})`;
+
+    header.style.backgroundColor = updatedColor;
+}
+
+window.addEventListener('scroll', changeColor)
