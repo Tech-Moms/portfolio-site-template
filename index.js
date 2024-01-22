@@ -10,7 +10,7 @@ function changeColor() {
     const g = green / scrollFactor;
     const b = blue / scrollFactor;
 
-    updatedColor = `rgb(${r}, ${g}, ${b})`;
+    const updatedColor = `rgb(${r}, ${g}, ${b})`;
 
     header.style.backgroundColor = updatedColor;
 }
