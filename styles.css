@@ -17,7 +17,7 @@ h6 {
 }
 
 header {
-  background-color: #1B998B;
+  background-color: rgb(27, 153, 139);
   color: white;
   display: flex;
   justify-content: space-evenly;
