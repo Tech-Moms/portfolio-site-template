@@ -1,19 +1,7 @@
-const red = 27;
-const green = 153;
-const blue = 139;
-const header = document.getElementById("header");
-console.log(header.innerText)
+const greeting = document.getElementById("greeting")
 
-function changeColor() {
-    const scrollFactor = 1 + window.scrollY / 400;
+greeting.style.textAlign = "center"
+greeting.style.marginTop = "50px"
 
-    const r = red / scrollFactor;
-    const g = green / scrollFactor;
-    const b = blue / scrollFactor;
-
-    const updatedColor = `rgb(${r}, ${g}, ${b})`;
-
-    header.style.backgroundColor = updatedColor;
-}
-
-window.addEventListener('scroll', changeColor)
+const username = window.prompt("What's your name?", "Jane")
+greeting.innerHTML = "Welcome to my website, " + username + "!"
